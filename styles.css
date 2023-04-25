@@ -1,0 +1,31 @@
+body{
+    background-color: antiquewhite;
+}
+{ 
+    margin: 90px;
+}
+style {
+    display: 'inline'
+}
+body {
+    font-family: 'Roboto';
+  }
+  .Introduction
+  {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+.About
+{
+    text-align: center;
+    justify-content: center;
+    color: darkblue;
+    background-color: white;
+}
+.footer
+{
+color: darkorange;   
+    text-align: right;
+    margin: 50px ;
+}
