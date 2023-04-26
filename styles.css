@@ -1,5 +1,6 @@
 body{
     background-color: antiquewhite;
+    text-decoration-color: cornflowerblue;
 }
 { 
     margin: 90px;
@@ -15,6 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+
   }
 .About
 {
@@ -28,4 +30,5 @@ body {
 color: darkorange;   
     text-align: right;
     margin: 50px ;
+    
 }
