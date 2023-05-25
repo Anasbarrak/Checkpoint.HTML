@@ -1,27 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color: antiquewhite;
-    text-decoration-color: cornflowerblue;
+    background-image: url(https://th.bing.com/th/id/R.cef4c7e3681272526d372763db92166c?rik=phfE0PUirQsj5A&pid=ImgRaw&r=0);
+    color: white;
+    font-family: 'Roboto' ;
+    display: center;
 }
-{ 
-    margin: 90px;
+header{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    gap: 20px;
 }
-style {
-    display: 'inline'
-}
-body {
-    font-family: 'Roboto';
-  }
-  .Introduction
+.About-Me
   {
     display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-
+    justify-content: flex-end;
+    gap: 250px;
   }
+<<<<<<< HEAD
+footer
+{
+    display: flex;
+    color: black;   
+    text-align: center;
+    flex-direction: column;
+=======
 .footer
 {
 color: darkorange;   
     text-align: right;
+>>>>>>> b0c93b2bd41f9a52f17397cb05cfec5033fab8c8
     margin: 50px ;
-    
+    align-items: flex-end;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: whitesmoke;
+}
+section{
+    display: flex;
+}
+.neon{
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
